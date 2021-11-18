@@ -6,7 +6,7 @@ cd "${0%/*}"
 
 ./build.sh
 
-rm ../release/*.img
+rm -f ../release/*.img
 
 ./release.sh
 
