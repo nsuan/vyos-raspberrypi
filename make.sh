@@ -2,6 +2,8 @@
 
 set -e
 
+source ~/.token
+
 cd "${0%/*}"
 
 ./build.sh
