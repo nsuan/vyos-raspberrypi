@@ -14,4 +14,5 @@ rm -f ../release/*.img
 
 ./upload.sh
 
-git push origin master
+git push origin main
+
